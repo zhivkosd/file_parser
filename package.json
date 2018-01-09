@@ -1,0 +1,19 @@
+{
+  "name": "File_Parser",
+  "version": "1.0.0",
+  "main": "src/app/index.js",
+  "repository": "https://github.com/zhivkosd/file_parser.git",
+  "author": "Zhivko Dimitrov",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "startDev": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.1"
+  }
+}
