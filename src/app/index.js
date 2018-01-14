@@ -1,14 +1,7 @@
-console.log('asdasd');
+'use strict';
 
-var asd = 22;
+import AppView from './views/AppView';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-console.log(asd);
-
-class TestClass {
-    constructor() {
-        let msg = "Using ES2015+ syntax";
-        console.log(msg);
-    }
-}
-
-let test = new TestClass();
+ReactDOM.render(<AppView />, document.getElementById('file-parser'));

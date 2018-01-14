@@ -1,0 +1,9 @@
+{
+    "presets": ["env"],
+    "plugins": [
+      "syntax-async-functions",
+      "syntax-jsx",
+      "transform-react-jsx"
+    ]
+  }
+  
